@@ -1,8 +1,41 @@
 /* Universal selector */
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}  
 
-/* element selector */
+header {
+    background-color: #231F20;
+    display: flex;
+    justify-content: space-between;
+}
 
-/* class selectors */
+
+h1 {
+    font-size: 48px;
+    color: #efe6dd;
+    padding: 10px;
+    background-color: #BB4430;
+}
+
+div img {
+    height: auto;
+    width: 100%;
+    
+}
+
+div li {
+    color: #efe6dd;
+    display: inline;
+    padding: 10px;
+    flex: wrap;
+    border-bottom: #BB4430 solid 2px;
+    margin: 15px; 
+}
+
+a {
+    color: #BB4430;
+    display: inline;
+    text-decoration: none;   
+}
 
 /* id selectors */
-
