@@ -14,6 +14,17 @@ header {
   flex-wrap: wrap;
 }
 
+.brdr {
+  border-right: black solid 3px; 
+  
+}
+
+main div {
+  padding: 10px
+}
+
+
+
 h1 {
   font-size: 48px;
   color: #efe6dd;
@@ -49,24 +60,7 @@ ul {
 }
 
 /* class selectors */
-.contact-items {
-  display: flex;
-  color: #231f20;
-}
 
-.about-me-container {
-  display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
-}
-
-.about-me-attributes {
-  /* width: 100px; */
-  margin: 10px;
-  border: 3px solid #bb4430;
-  background-color: #dfdfdf;
-  /* background-image: url(../images/IMG_2817\ 2.jpeg); */
-}
 
 .about-me-1 {
   min-height: 200px;
@@ -86,10 +80,23 @@ ul {
   margin: 10px;
 }
 
+.snoopie {
+  background-image: url("../images/snoopiepic.png");
+}
+
+.planner {
+  background-image: url("../images/dayplanner.png");
+}
+
+.password {
+  background-image: url("../images/passwordgenerator.png");
+}
+
+
 /* .my-work-attributes {
   /* width: 400px; */
 
-.my-work-1 {
+/* .my-work-1 {
   height: 300px;
   width: 100px;
 }
@@ -111,20 +118,13 @@ ul {
 .contact-me-container {
   display: flex;
   justify-content: space-evenly;
-}
+} */
 
-.contact-me-attributes {
-  /* width: 100px;
-  margin: 10px; */
-}
 
-.contact-me-1 {
- 
-}
 
-.contact-me-2 {
 
-}
+
+
 
 .nav-list {
   display: flex;
