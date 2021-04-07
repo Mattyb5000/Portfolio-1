@@ -59,18 +59,27 @@ ul {
   width: 100%;
 }
 
+/* col-sm-10 div {
+  background-color: #231f20;
+} */
+
+ /* {
+  background-color: #bb4430
+
+} */
+
 /* class selectors */
 
 
-.about-me-1 {
+/* .about-me-1 {
   min-height: 200px;
   width: 25%;
-  /* border-right: 4px solid black; */
+
 }
 
 .about-me-3 {
   min-height: 200px;
-  /* background-image: url(../images/IMG_2817\ 2.jpeg); */
+
 }
 
 .my-work-container {
@@ -78,18 +87,50 @@ ul {
   flex: wrap;
 
   margin: 10px;
+} */
+.flex-item div {
+  background-color: #bb4430;
 }
+
+.work-text {
+  color: #efe6dd; 
+}
+
+.flex-item {
+  border: 5px solid #231f20;
+  /* background-color: var(--primary); */
+  color: var(--tertiary);
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+  background-blend-mode: soft-light;
+  background-size: 150%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+}
+
+/* feature first portfolio item */
+.flex-item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
 
 .snoopie {
   background-image: url("../images/snoopiepic.png");
 }
 
 .planner {
-  background-image: url("../images/dayplanner.png");
+  background-image: url("../images/planner3.png");
 }
 
 .password {
-  background-image: url("../images/passwordgenerator.png");
+  background-image: url("../images/passwordgen.png");
 }
 
 
@@ -168,7 +209,7 @@ div .nav-list {
 }
 
 /* id selectors */
-#subtitle {
+.subtitle {
   background-color: #bb4430;
   color: #efe6dd;
   position: absolute;
