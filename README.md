@@ -1,13 +1,13 @@
-# Portfolio-1
+# Professional-Portfolio
 
 
 ## Description
 
-Welcome to my professional portfolio. Here you will learn a little about me and view some of my favorite project so far!   
+Welcome to my professional portfolio. Here you will learn a little about me and view some of my favorite projects so far!   
 
-![My portfolio image](./assets/images/myportfolio.png)
+![My portfolio image](./assets/images/portfolio.png)
 
 ## Deployed site
-You can find the deployed site here:
+You can find my deployed site here:
 
-[My portfolio]()
+[My portfolio](https://mattyb5000.github.io/Professional-Portfolio/)
