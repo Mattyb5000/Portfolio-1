@@ -14,7 +14,6 @@ header {
   flex-wrap: wrap;
 }
 
-
 main div {
   padding: 10px;
 }
@@ -62,11 +61,8 @@ ul {
 
 .flex-item {
   border: 3px solid #231f20;
-  /* background-color: var(--primary); */
-  /* color: var(--tertiary); */
   min-height: 150px;
   max-height: 150px;
-  /* flex-basis: calc(50% - 1em); */
   display: flex;
   align-items: flex-end;
   padding: 0 0 20px 0;
@@ -74,10 +70,7 @@ ul {
   text-decoration: none;
   background-blend-mode: soft-light;
   background-size: 150%;
-  /* transition: all 0.5s; */
-  /* font-size: 0.9rem; */
 }
-
 
 .flex-item:first-child {
   min-height: 400px;
@@ -96,12 +89,10 @@ ul {
   background-image: url("../images/passwordgen.png");
 }
 
-
 .nav-list {
   display: flex;
   align-items: center;
   justify-content: right;
-
 }
 
 div .nav-list {
@@ -112,20 +103,9 @@ div .nav-list {
   padding: 0px;
 }
 
-
-#about-me {
-  border: 1px;
-}
-
-
 .contact-items {
-  display: flex;
   color: #231f20;
 }
-
-
-
-
 
 .subtitle {
   background-color: #bb4430;
@@ -137,7 +117,3 @@ div .nav-list {
 .brdr {
   border-right: black solid 3px;
 }
-
-
-
-
