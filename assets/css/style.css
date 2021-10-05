@@ -29,13 +29,17 @@ div img {
   width: 100%;
 }
 /* nav bar items */
-div li {
+.inline-li li {
   color: #efe6dd;
   display: inline;
   padding: 10px;
   flex: wrap;
   border-bottom: #bb4430 solid 2px;
   margin: 15px;
+}
+
+#technical-skills li {
+
 }
 
 a {
@@ -89,21 +93,26 @@ ul {
   background-image: url("../images/passwordgen.png");
 }
 
-.nav-list {
+/* Extra nav styling -- not needed */
+/* .nav-list {
   display: flex;
   align-items: center;
   justify-content: right;
-}
+} */
 
-div .nav-list {
+
+/* Extra nav styling -- not needed */
+/* div .nav-list {
   justify-content: right;
-}
+} */
 
-.nav-list ul {
+
+/* Extra nav styling -- not needed */
+/* .nav-list ul {
   padding: 0px;
-}
+} */
 
-.contact-items {
+#phone {
   color: #231f20;
 }
 
