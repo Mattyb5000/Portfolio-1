@@ -1,4 +1,3 @@
-/* Universal selector */
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -29,10 +28,10 @@ div img {
   width: 100%;
 }
 
-/* span {
-  justify-content: space-between;
-} */
-/* nav bar items */
+span {
+  /* TODO: center project links within div */
+}
+
 .inline-li li {
   color: #efe6dd;
   display: inline;
@@ -43,7 +42,7 @@ div img {
 }
 
 #technical-skills li {
-
+ /* TODO: style this section */
 }
 
 a {
@@ -95,27 +94,7 @@ ul {
 
 .employee-dir-img {
   background-image: url("../images/employee-dir.png");
-
 }
-
-/* Extra nav styling -- not needed */
-/* .nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: right;
-} */
-
-
-/* Extra nav styling -- not needed */
-/* div .nav-list {
-  justify-content: right;
-} */
-
-
-/* Extra nav styling -- not needed */
-/* .nav-list ul {
-  padding: 0px;
-} */
 
 #phone {
   color: #231f20;
