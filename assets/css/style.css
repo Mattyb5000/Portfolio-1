@@ -28,6 +28,10 @@ h1 {
 div img {
   width: 100%;
 }
+
+/* span {
+  justify-content: space-between;
+} */
 /* nav bar items */
 .inline-li li {
   color: #efe6dd;
@@ -81,16 +85,17 @@ ul {
   flex-basis: 100%;
 }
 
-.snoopie {
-  background-image: url("../images/snoopiepic.png");
+.gitcommit-img {
+  background-image: url("../images/gitcommit.png");
 }
 
-.planner {
-  background-image: url("../images/planner3.png");
+.homeroute-img {
+  background-image: url("../images/homeroute.png");
 }
 
-.password {
-  background-image: url("../images/passwordgen.png");
+.employee-dir-img {
+  background-image: url("../images/employee-dir.png");
+
 }
 
 /* Extra nav styling -- not needed */
