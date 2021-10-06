@@ -15,6 +15,9 @@ header {
 
 main div {
   padding: 10px;
+/* margin-top: 10px;
+margin-bottom: 10px */
+
 }
 
 h1 {
@@ -32,6 +35,10 @@ span {
   /* TODO: center project links within div */
 }
 
+.section-head {
+  border-right: 3px solid black;
+}
+
 .inline-li li {
   color: #efe6dd;
   display: inline;
@@ -43,6 +50,11 @@ span {
 
 #technical-skills li {
  /* TODO: style this section */
+}
+
+.about-text {
+  display: flex;
+  display: block
 }
 
 a {
@@ -62,7 +74,7 @@ ul {
   background-color: #bb4430;
 }
 
-.work-text {
+.project-description-text {
   color: #efe6dd;
 }
 
@@ -107,6 +119,23 @@ ul {
   padding: 5px;
 }
 
-.brdr {
+/* .brdr {
   border-right: black solid 3px;
+} */
+
+
+
+@media (max-width: 575px){
+  .section-head {
+    /* display: inline; */
+    /* justify-content: center; */
+    /* border-bottom: 3px solid black; */
+    border-right: none;
+    text-align: center;
+    margin: auto
+  }
+  .nav-list {
+    /* justify-content: center;
+    text-align: center; */
+  }
 }
